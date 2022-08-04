@@ -1,0 +1,82 @@
+.btn {
+	border-radius: 5px;
+	padding: 15px;
+	font-family: inherit;
+	text-transform: uppercase;
+	font-weight: var(--fw-500);
+	border: none;
+	outline: none;
+	display: block;
+	cursor: pointer;
+	background: none;
+	color: var(--blue);
+	width: 100%;
+	letter-spacing: 1px;
+}
+
+.btn:hover {
+	opacity: 0.7;
+}
+
+.btn.primary {
+	color: var(--green);
+}
+
+.btn.primary:hover {
+	color: #fff;
+	background-color: var(--green);
+}
+
+.btn.outlined {
+	border: 1px solid var(--blue);
+}
+
+
+.btn.primary.outlined {
+	color: var(--green);
+	border: 1px solid var(--green);
+	background-color: #fff;
+}
+
+.btn.contained {
+	color: #fff;
+	background-color: var(--blue);
+	box-shadow: 0px 3px 0px hsl(248, 32%, 30%);
+}
+
+.btn.primary.contained {
+	color: var(--white);
+	background-color: var(--green);
+	box-shadow: 0px 3px 0px hsl(154, 59%, 40%);
+}
+
+.btn:disabled {
+	background-color: var(--gray-blue) !important;
+	color: var(--dark-blue) !important;
+	border: none !important;
+	box-shadow: none !important;
+	opacity: 0.7;
+}
+
+.btn:disabled:hover {
+	opacity: 0.7;
+}
+
+/* form button {
+	width: 100%;
+	background-color: var(--green);
+	border-radius: 5px;
+	padding: 15px;
+	border: 0;
+	color: #fff;
+	font-family: inherit;
+	text-transform: uppercase;
+	font-weight: var(--fw-500);
+	box-shadow: 0px 3px 0px hsl(154, 59%, 40%);
+	cursor: pointer;
+}
+
+form button:hover,
+form button:active {
+	opacity: 0.8;
+} */

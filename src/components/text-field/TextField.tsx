@@ -20,7 +20,7 @@ const TextField = ({
   value,
   label,
   type = "text",
-  error = true,
+  error,
   placeholder,
   onChange,
   onBlur,

@@ -19,3 +19,9 @@
 	--fw-700: 700;
 	--ff: 'Poppins', sans-serif;
 }
+
+body {
+	font-size: var(--fs);
+	font-weight: var(--fw-normal);
+	font-family: var(--ff);
+}

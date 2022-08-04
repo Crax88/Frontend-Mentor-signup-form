@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Crax88/Frontend-Mentor-signup-form/static/css/main.6d315789.css",
+    "main.js": "/Crax88/Frontend-Mentor-signup-form/static/js/main.d4d95835.js",
+    "static/media/bg-intro-desktop.png": "/Crax88/Frontend-Mentor-signup-form/static/media/bg-intro-desktop.059183eea52640c5068d.png",
+    "static/media/bg-intro-mobile.png": "/Crax88/Frontend-Mentor-signup-form/static/media/bg-intro-mobile.02ce398270ece1769ebc.png",
+    "index.html": "/Crax88/Frontend-Mentor-signup-form/index.html",
+    "main.6d315789.css.map": "/Crax88/Frontend-Mentor-signup-form/static/css/main.6d315789.css.map",
+    "main.d4d95835.js.map": "/Crax88/Frontend-Mentor-signup-form/static/js/main.d4d95835.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d315789.css",
+    "static/js/main.d4d95835.js"
+  ]
+}

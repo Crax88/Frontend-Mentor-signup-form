@@ -1,0 +1,39 @@
+.field {
+	background-color: transparent;
+	border: 1px solid var(--gray-blue);
+	padding: 10px;
+	border-radius: 5px;
+	position: relative;
+}
+
+.field input {
+	appearance: none;
+	background: transparent;
+	border: 0;
+	outline: 0;
+	width: 100%;
+	color: var(--dark-blue);
+	font-family: var(--ff);
+	font-weight: var(--fw-600);
+	padding: 0;
+}
+
+.field input::placeholder {
+	color: var(--dark-blue);
+	font-family: var(--ff);
+	font-weight: var(--fw-600);
+}
+
+.field.is-focused {
+	border-color: var(--blue);
+	border-width: 2px;
+}
+
+.field.has-error {
+	border-color: red;
+	border-width: 2px;
+}
+
+.field.has-error input::placeholder {
+	color: red;
+}
